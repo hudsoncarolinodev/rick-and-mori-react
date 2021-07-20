@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkorange;
+  padding-bottom: 30px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2{
+  margin:0;
+  color: #fff;
+  padding: 20px;
+}
+button{
+  background-color: #ffeb3b;
+  border: solid #fff;
+  margin: 20px 5px;
+  padding: 7px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #373737;
+  cursor: pointer;
+}
+.App ul{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  max-width: 1060px;
+  margin:0 auto;
+  justify-content: center;
+  padding: 20px;
+}
+.person.active{
+  background-color: #d3ff9f;
+  height: 100%;
+}
+.App ul li{
+  background-color: #fff;
+  max-width: 255px;
+  border: solid darkorange 3px;
+  border-radius: 5px;
+}
+.App ul li h2{
+  color: #373737;
+  font-size: 18px;
+  padding: 10px 0 0;
+}
+.App ul li img{
+  display: block;
+  width: 100%;
+}
